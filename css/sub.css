@@ -1,0 +1,14 @@
+/* sub */
+.container-fluid {width: 70%; text-align: center; padding-bottom: 200px;}
+.title-img {width: 100%;}
+.sub-exp {border: 5px solid #000; padding: 30px; font-size: 28px; font-weight: 600; background: #ddd; margin: 0 auto;}
+
+/* media query */
+@media screen and (max-width:767px){
+	.container-fluid {width: 95%;}
+	.sub-exp {font-size: 14px; padding: 10px 0;}
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+	.container-fluid {width: 80%;}
+	.sub-exp {font-size: 20px; padding: 10px;}
+}
